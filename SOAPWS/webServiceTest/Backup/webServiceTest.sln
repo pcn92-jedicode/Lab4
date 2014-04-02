@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "C:\...\consumeTestWebService\", "consumeTestWebService\", "{8E6CB03E-18CB-4883-8996-D1CF81453A68}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.VirtualPath = "/consumeTestWebService"
+		Debug.AspNetCompiler.PhysicalPath = "consumeTestWebService\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\consumeTestWebService\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/consumeTestWebService"
+		Release.AspNetCompiler.PhysicalPath = "consumeTestWebService\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\consumeTestWebService\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1970"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "C:\...\testWebService\", "testWebService\", "{7C28FB37-0D5F-4A81-AE07-C33E1C45BAEF}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.VirtualPath = "/testWebService"
+		Debug.AspNetCompiler.PhysicalPath = "testWebService\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\testWebService\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/testWebService"
+		Release.AspNetCompiler.PhysicalPath = "testWebService\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\testWebService\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1972"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E6CB03E-18CB-4883-8996-D1CF81453A68}.Debug|.NET.ActiveCfg = Debug|.NET
+		{8E6CB03E-18CB-4883-8996-D1CF81453A68}.Debug|.NET.Build.0 = Debug|.NET
+		{7C28FB37-0D5F-4A81-AE07-C33E1C45BAEF}.Debug|.NET.ActiveCfg = Debug|.NET
+		{7C28FB37-0D5F-4A81-AE07-C33E1C45BAEF}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

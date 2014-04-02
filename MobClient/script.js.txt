@@ -1,0 +1,28 @@
+
+
+   // GET ALL
+   function GetAllBooks()
+   {
+        $.ajax({
+                 type: "GET",
+                 url: "http://localhost:34946/BookService.svc/books",
+                 contentType: "json",
+                 dataType: "json",
+                 success: function (data) {
+
+                     $.each(data, function (key, value) {
+                         //stringify
+                         var jsonData = JSON.stringify(value);
+                         //Parse JSON
+                         var objData = $.parseJSON(jsonData);
+                         var bookId = objData.BookId;
+                         var isbn = objData.ISBN;
+                         var title = objData.Title;
+                         $('<tr><td>' + bookId + '</td><td>' + isbn + '</td><td>' + title + '</td></tr>').appendTo('#books'); 
+                     });
+                 },
+                 error: function (xhr) {
+                     alert(xhr.responseText);
+                 }
+       });
+   }

@@ -1,0 +1,6 @@
+c:\users\pavan\documents\visual studio 2013\Projects\RESTWebS\RESTWebS\obj\Debug\RESTWebS.csprojResolveAssemblyReference.cache
+c:\users\pavan\documents\visual studio 2013\Projects\RESTWebS\RESTWebS\bin\RESTWebS.dll.config
+c:\users\pavan\documents\visual studio 2013\Projects\RESTWebS\RESTWebS\bin\RESTWebS.dll
+c:\users\pavan\documents\visual studio 2013\Projects\RESTWebS\RESTWebS\bin\RESTWebS.pdb
+c:\users\pavan\documents\visual studio 2013\Projects\RESTWebS\RESTWebS\obj\Debug\RESTWebS.dll
+c:\users\pavan\documents\visual studio 2013\Projects\RESTWebS\RESTWebS\obj\Debug\RESTWebS.pdb
